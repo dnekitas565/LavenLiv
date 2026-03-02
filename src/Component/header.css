@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    height: 60px;
+    margin: 0 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "poppins";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Left-bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Logo{
+    display: flex;
+    height: auto;
+    width: 25px;
+    padding: 4px;
+    border-radius: 100%;
+    background-color: #F4EAFB;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.Logo img{
+    width: 100%;
+}
+.Nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+.Nav-bar li{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.Right-bar{
+    display: flex;
+    gap: 5px;
+}
+.Settings{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.Notifications{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.Profile{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
