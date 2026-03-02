@@ -43,6 +43,14 @@
     border: 1px solid black;
     border-radius: 10px;
     padding: 5px 10px;
+
+}
+.Nav-bar a,
+.Nav-bar a:visited,
+.Nav-bar a:hover,
+.Nav-bar a:active{
+    text-decoration: none;
+    color: black;
 }
 .Right-bar{
     display: flex;

@@ -1,5 +1,7 @@
 import Logo from '../assets/image.png'
 import './header.css'
+import { Link} from 'react-router'
+import dashboard from "../Page/dashboard.jsx";
 function Header() {
     return (
         <div className="Header">
@@ -12,11 +14,22 @@ function Header() {
                 </div>
             </div>
             <div className="Nav-bar">
-                <li>Dashboard</li>
-                <li>To-Do</li>
-                <li>Projects</li>
-                <li>Meal Planner</li>
-                <li>Focus</li>
+                <Link to="/">
+                    <li>Dashboard</li>
+                </Link>
+                <Link to="/todo">
+                    <li>To-Do</li>
+                </Link>
+                <Link to="/projects">
+                    <li>Projects</li>
+                </Link>
+                <Link to="/mealplanner">
+                    <li>Meal Planner</li>
+                </Link>
+                <Link to="/focus">
+                    <li>Focus</li>
+                </Link>
+
             </div>
             <div className="Right-bar">
                 <div className="Settings">
@@ -41,4 +54,5 @@ function Header() {
         </div>
     )
 }
+
 export default Header
